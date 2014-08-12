@@ -1,14 +1,16 @@
 /**
  * Created by clayton.hunt on 8/12/2014.
  */
-(function() {
+/* globals Toolbox */
+
+(function(module) {
     'use strict';
 
-    describe('Templating Engine', function() {
+    describe('Template Engine', function() {
         describe('In General', function() {
             it('exists', function() {
-               expect(1).toBe(1);
+               expect(module.Template).toBeDefined();
             });
         });
     });
-}());
+}(Toolbox));
