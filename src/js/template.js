@@ -6,5 +6,7 @@ var Toolbox = Toolbox || {};
 (function(module) {
     'use strict';
 
-    module.Template = null;
+    module.Template = function() {
+        
+    };
 }(Toolbox));

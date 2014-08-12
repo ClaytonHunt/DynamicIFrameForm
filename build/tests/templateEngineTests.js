@@ -11,6 +11,10 @@
             it('exists', function() {
                expect(module.Template).toBeDefined();
             });
+
+            it('is a function', function() {
+                expect(typeof module.Template).toBe('function');
+            });
         });
     });
 }(Toolbox));
