@@ -1,4 +1,4 @@
 /**
  * Created by clayton.hunt on 8/12/2014.
  */
-Toolbox = Toolbox || {};
+var Toolbox = Toolbox || {};
