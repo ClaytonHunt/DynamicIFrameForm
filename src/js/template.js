@@ -15,4 +15,8 @@ var Toolbox = Toolbox || {};
     p.defineAs = function(template) {
         return new module.Template(template);
     };
+
+    p.compile = function() {
+
+    };
 }(Toolbox));
